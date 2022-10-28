@@ -6,11 +6,11 @@
       "paymentType":"easy park",
       "priceType":"consumer price",
       "price":"300 SEK",
-      "priceUnit":"KW/H"
+      "priceUnit":"KW/H",
       "ewayFee":"100SEK",
-      "ewayFeeUnit":"KW/H"
+      "ewayFeeUnit":"KW/H",
       "customerPrice":"50 SEK",
-      "customerPriceUnit":"KW/H"
+      "customerPriceUnit":"KW/H",
       "startDate":"2020-12-31T00:00:00"
    },
    {
@@ -18,11 +18,11 @@
       "paymentType":"easy park",
       "priceType":"consumer price",
       "price":"300 SEK",
-      "priceUnit":"KW/H"
+      "priceUnit":"KW/H",
       "ewayFee":"100SEK",
-      "ewayFeeUnit":"KW/H"
+      "ewayFeeUnit":"KW/H",
       "customerPrice":"50 SEK",
-      "customerPriceUnit":"KW/H"
+      "customerPriceUnit":"KW/H",
       "startDate":"2020-12-31T00:00:00"
    },
    {
@@ -30,11 +30,11 @@
       "paymentType":"easy park",
       "priceType":"consumer price",
       "price":"300 SEK",
-      "priceUnit":"KW/H"
+      "priceUnit":"KW/H",
       "ewayFee":"100SEK",
-      "ewayFeeUnit":"KW/H"
+      "ewayFeeUnit":"KW/H",
       "customerPrice":"50 SEK",
-      "customerPriceUnit":"KW/H"
+      "customerPriceUnit":"KW/H",
       "startDate":"2020-12-31T00:00:00"
    },
    {
@@ -42,11 +42,11 @@
       "paymentType":"easy park",
       "priceType":"consumer price",
       "price":"300 SEK",
-      "priceUnit":"KW/H"
+      "priceUnit":"KW/H",
       "ewayFee":"100SEK",
-      "ewayFeeUnit":"KW/H"
+      "ewayFeeUnit":"KW/H",
       "customerPrice":"50 SEK",
-      "customerPriceUnit":"KW/H"
+      "customerPriceUnit":"KW/H",
       "startDate":"2020-12-31T00:00:00"
    }
 ]
