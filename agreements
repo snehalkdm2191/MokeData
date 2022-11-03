@@ -23,7 +23,13 @@
                "id":"cfef74e1-2a39-433e-b233-a2d18a80d06e",
                "name":"kwh"
             },
-            "stakeHolders":null
+            "stakeHolders":[
+                  {
+                     "name":"ewayFee",
+                     "amount":"200",
+                     "feeType":"fixed",
+                  }
+               ]
          },
          "futureTerms":[
             
@@ -33,20 +39,30 @@
                "id":"1d7d8449-c0b3-41c6-9a4f-bc14b751ea82",
                "serviceType":{
                   "id":"86e88077-1b60-4666-a741-307ca7468191",
-                  "name":"kwh"
+                  "name":"ChargeCard"
                },
                "startDate":"2022-11-02T13:18:42",
                "endDate":"2022-11-02T13:18:50",
                "consumerAmount":"3.00",
                "unit":{
                   "id":"cfef74e1-2a39-433e-b233-a2d18a80d06e",
-                  "name":"ChargeCard"
+                  "name":"kwh"
                },
-               "stakeHolders":null
+               "stakeHolders":[
+                  {
+                     "name":"ewayFee",
+                     "amount":"200",
+                     "feeType":"fixed",
+                  }
+               ]
             }
          ],
          "stakeHolders":[
-            
+            {
+               "name":"ewayFee",
+               "amount":"200",
+               "feeType":"fixed",
+            }
          ]
       }
    ]
