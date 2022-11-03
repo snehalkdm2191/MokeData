@@ -1,0 +1,53 @@
+{
+   "id":"b55410cd-c500-4c88-92aa-8623e8519473",
+   "name":"My First Agreement from Backend",
+   "currency":{
+      "id":"5b344a86-4092-48be-b6ff-591ebedcce69",
+      "name":"Swedish Kronor",
+      "localeCode":"SEK"
+   },
+   "services":[
+      {
+         "serviceName":"kwh",
+         "serviceId":"1d7d8449-c0b3-41c6-9a4f-bc14b751ea82",
+         "activeTerm":{
+            "id":"1d7d8449-c0b3-41c6-9a4f-bc14b751ea82",
+            "serviceType":{
+               "id":"86e88077-1b60-4666-a741-307ca7468191",
+               "name":"kwh"
+            },
+            "startDate":"2022-11-02T13:18:42",
+            "endDate":"2022-11-02T13:18:50",
+            "consumerAmount":"3.00",
+            "unit":{
+               "id":"cfef74e1-2a39-433e-b233-a2d18a80d06e",
+               "name":"ChargeCard"
+            },
+            "stakeHolders":null
+         },
+         "futureTerms":[
+            
+         ],
+         "historicTerms":[
+            {
+               "id":"1d7d8449-c0b3-41c6-9a4f-bc14b751ea82",
+               "serviceType":{
+                  "id":"86e88077-1b60-4666-a741-307ca7468191",
+                  "name":"kwh"
+               },
+               "startDate":"2022-11-02T13:18:42",
+               "endDate":"2022-11-02T13:18:50",
+               "consumerAmount":"3.00",
+               "unit":{
+                  "id":"cfef74e1-2a39-433e-b233-a2d18a80d06e",
+                  "name":"ChargeCard"
+               },
+               "stakeHolders":null
+            }
+         ],
+         "stakeHolders":[
+            
+         ]
+      }
+   ]
+}
