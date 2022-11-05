@@ -1,69 +1,205 @@
 {
-   "id":"b55410cd-c500-4c88-92aa-8623e8519473",
-   "name":"My First Agreement from Backend",
-   "currency":{
-      "id":"5b344a86-4092-48be-b6ff-591ebedcce69",
-      "name":"Swedish Kronor",
-      "localeCode":"SEK"
-   },
-   "services":[
-      {
-         "serviceName":"ChargeCard",
-         "serviceId":"1d7d8449-c0b3-41c6-9a4f-bc14b751ea82",
-         "activeTerm":{
-            "id":"1d7d8449-c0b3-41c6-9a4f-bc14b751ea82",
-            "serviceType":{
-               "id":"86e88077-1b60-4666-a741-307ca7468191",
-               "name":"kwh"
-            },
-            "startDate":"2022-11-02T13:18:42",
-            "endDate":"2022-11-02T13:18:50",
-            "consumerAmount":"3.00",
-            "unit":{
-               "id":"cfef74e1-2a39-433e-b233-a2d18a80d06e",
-               "name":"kwh"
-            },
-            "stakeHolders":[
-                  {
-                     "name":"ewayFee",
-                     "amount":"200",
-                     "feeType":"fixed",
-                  }
-               ]
-         },
-         "futureTerms":[
-            
-         ],
-         "historicTerms":[
-            {
-               "id":"1d7d8449-c0b3-41c6-9a4f-bc14b751ea82",
-               "serviceType":{
-                  "id":"86e88077-1b60-4666-a741-307ca7468191",
-                  "name":"ChargeCard"
-               },
-               "startDate":"2022-11-02T13:18:42",
-               "endDate":"2022-11-02T13:18:50",
-               "consumerAmount":"3.00",
-               "unit":{
-                  "id":"cfef74e1-2a39-433e-b233-a2d18a80d06e",
-                  "name":"kwh"
-               },
-               "stakeHolders":[
-                  {
-                     "name":"ewayFee",
-                     "amount":"200",
-                     "feeType":"fixed",
-                  }
-               ]
+"recordList":[ 
+{
+  "id": "b55410cd-c500-4c88-92aa-8623e8519473",
+  "name": "My First Agreement from Backend",
+  "currency": {
+    "id": "5b344a86-4092-48be-b6ff-591ebedcce69",
+    "name": "Swedish Kronor",
+    "localeCode": "SEK"
+  },
+  "services": [
+    {
+      "serviceName": "ChargeCard",
+      "serviceId": "1d7d8449-c0b3-41c6-9a4f-bc14b751ea82",
+      "activeTerm": {
+        "id": "1d7d8449-c0b3-41c6-9a4f-bc14b751ea82",
+        "serviceType": {
+          "id": "cfef74e1-2a39-433e-b233-a2d18a80d06e",
+          "name": "ChargeCard"
+        },
+        "startDate": "2022-11-02T13:18:42",
+        "endDate": "2022-11-02T13:18:50",
+        "consumerAmount": "3.00",
+        "unit": {
+          "id": "86e88077-1b60-4666-a741-307ca7468191",
+          "name": "kwh"
+        },
+        "stakeHolders": [
+          {
+            "name": "Eways",
+            "amount": 10,
+            "feeType": {
+              "id": "515bc6c2-03c5-4cae-8261-f35ce9a42e20",
+              "name": "Percentage"
             }
-         ],
-         "stakeHolders":[
-            {
-               "name":"ewayFee",
-               "amount":"200",
-               "feeType":"fixed",
+          },
+          {
+            "name": "Customer",
+            "amount": 2.7,
+            "feeType": {
+              "id": "129e985d-8e31-42a6-9f4a-6929b9b25b57",
+              "name": "Fixed"
             }
-         ]
-      }
-   ]
+          }
+        ]
+      },
+      "futureTerms": [],
+      "historicTerms": [
+        {
+          "id": "1d7d8449-c0b3-41c6-9a4f-bc14b751ea82",
+          "serviceType": {
+            "id": "cfef74e1-2a39-433e-b233-a2d18a80d06e",
+            "name": "ChargeCard"
+          },
+          "startDate": "2022-11-02T13:18:42",
+          "endDate": "2022-11-02T13:18:50",
+          "consumerAmount": "3.00",
+          "unit": {
+            "id": "86e88077-1b60-4666-a741-307ca7468191",
+            "name": "kwh"
+          },
+          "stakeHolders": [
+            {
+              "name": "Eways",
+              "amount": 10,
+              "feeType": {
+                "id": "515bc6c2-03c5-4cae-8261-f35ce9a42e20",
+                "name": "Percentage"
+              }
+            },
+            {
+              "name": "Customer",
+              "amount": 2.7,
+              "feeType": {
+                "id": "129e985d-8e31-42a6-9f4a-6929b9b25b57",
+                "name": "Fixed"
+              }
+            }
+          ]
+        },
+        {
+          "id": "f6153cd9-41ec-4bf3-b3eb-37a65d61caaf",
+          "serviceType": {
+            "id": "cfef74e1-2a39-433e-b233-a2d18a80d06e",
+            "name": "ChargeCard"
+          },
+          "startDate": "2022-11-03T22:54:34",
+          "endDate": "2022-11-03T22:54:34",
+          "consumerAmount": "33.00",
+          "unit": {
+            "id": "86e88077-1b60-4666-a741-307ca7468191",
+            "name": "kwh"
+          },
+          "stakeHolders": [
+            {
+              "name": "Eways",
+              "amount": 19,
+              "feeType": {
+                "id": "515bc6c2-03c5-4cae-8261-f35ce9a42e20",
+                "name": "Percentage"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serviceName": "ChargeCard",
+      "serviceId": "f6153cd9-41ec-4bf3-b3eb-37a65d61caaf",
+      "activeTerm": {
+        "id": "1d7d8449-c0b3-41c6-9a4f-bc14b751ea82",
+        "serviceType": {
+          "id": "cfef74e1-2a39-433e-b233-a2d18a80d06e",
+          "name": "ChargeCard"
+        },
+        "startDate": "2022-11-02T13:18:42",
+        "endDate": "2022-11-02T13:18:50",
+        "consumerAmount": "3.00",
+        "unit": {
+          "id": "86e88077-1b60-4666-a741-307ca7468191",
+          "name": "kwh"
+        },
+        "stakeHolders": [
+          {
+            "name": "Eways",
+            "amount": 10,
+            "feeType": {
+              "id": "515bc6c2-03c5-4cae-8261-f35ce9a42e20",
+              "name": "Percentage"
+            }
+          },
+          {
+            "name": "Customer",
+            "amount": 2.7,
+            "feeType": {
+              "id": "129e985d-8e31-42a6-9f4a-6929b9b25b57",
+              "name": "Fixed"
+            }
+          }
+        ]
+      },
+      "futureTerms": [],
+      "historicTerms": [
+        {
+          "id": "1d7d8449-c0b3-41c6-9a4f-bc14b751ea82",
+          "serviceType": {
+            "id": "cfef74e1-2a39-433e-b233-a2d18a80d06e",
+            "name": "ChargeCard"
+          },
+          "startDate": "2022-11-02T13:18:42",
+          "endDate": "2022-11-02T13:18:50",
+          "consumerAmount": "3.00",
+          "unit": {
+            "id": "86e88077-1b60-4666-a741-307ca7468191",
+            "name": "kwh"
+          },
+          "stakeHolders": [
+            {
+              "name": "Eways",
+              "amount": 10,
+              "feeType": {
+                "id": "515bc6c2-03c5-4cae-8261-f35ce9a42e20",
+                "name": "Percentage"
+              }
+            },
+            {
+              "name": "Customer",
+              "amount": 2.7,
+              "feeType": {
+                "id": "129e985d-8e31-42a6-9f4a-6929b9b25b57",
+                "name": "Fixed"
+              }
+            }
+          ]
+        },
+        {
+          "id": "f6153cd9-41ec-4bf3-b3eb-37a65d61caaf",
+          "serviceType": {
+            "id": "cfef74e1-2a39-433e-b233-a2d18a80d06e",
+            "name": "ChargeCard"
+          },
+          "startDate": "2022-11-03T22:54:34",
+          "endDate": "2022-11-03T22:54:34",
+          "consumerAmount": "33.00",
+          "unit": {
+            "id": "86e88077-1b60-4666-a741-307ca7468191",
+            "name": "kwh"
+          },
+          "stakeHolders": [
+            {
+              "name": "Eways",
+              "amount": 19,
+              "feeType": {
+                "id": "515bc6c2-03c5-4cae-8261-f35ce9a42e20",
+                "name": "Percentage"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  }
+  ]
 }
